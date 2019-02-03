@@ -1,7 +1,6 @@
-1. $ git commit -m "outputed the status of the repository to docs/status.txt"
-[master faf33b7] outputed the status of the repository to docs/status.txt
+1. $ git commit -m "outputted the status of the repository to docs/status.txt"
+[master faf33b7] outputted the status of the repository to docs/status.txt
  1 file changed, 10 insertions(+)
-
 
 $ git push
 Enumerating objects: 11, done.
@@ -19,17 +18,18 @@ To https://github.com/0rcrist/Assignment1.git
 3. Modify: 2019-01-27 16:57:56.938808200 -0500
 using stat .gitignore
 
-4. Branches are useful when you might want to change one part of a project without changing the rest. By making a branch you are less likly to change anything ylu did not intentd. Branches also make working with multiple people easier. if multiple people work on diffrent branches then merge when they finish, this prevents problems from occuring in the master branch. 
+4. Branches are useful when you might want to change one part of a project without changing the rest. By making a branch you are less likely to change anything you did not intend. Branches also make working with multiple people easier. If multiple people work on different branches then merge when they finish, this prevents problems from occurring in the master branch. 
 
-5. git status tells you what has been added and how many commits you are ahead of the master branch. It does not tell you about the history of the project. 
-git log shows the history of the project, like commited snapsjhots. 
+5. Git status tells you what has been added and how many commits you are ahead of the master branch. It does not tell you about the history of the project. 
+git log shows the history of the project, like committed snapshots. 
 
 6. git log <Weapon.h>
 
 7.  git log --grep="file"
 
-8. Inheritance is when a class will have functions or variables from uts parent class, even if they are not in its declaration. 
-polymorphism means many names. in object oreant programming polymorphism is when a function has the same name but diffrent parameters or diffrent types. for example, a function Add() could take two ints and add them or two strings and concatinate them. 
-encapsulation is the concept of haveing data that only certain function can have accsees to. in c++ private and public keywords manage what can be seen outside of a function. 
+8. Inheritance is when a class will have functions or variables from its parent class, even if they are not in its declaration. 
+Polymorphism means many names. In object-oriented programming polymorphism is when a function has the same name but different parameters or different types. For example, a function Add() could take two ints and add them or two strings and concatenate them. 
+Encapsulation is the concept of having data that only certain function can have access to. In c++ private and public keywords manage what can be seen outside of a function. 
 
-9. 
+9. The main difference between integrated manager workflow and dictator and lieutenants is that in the integrated system all developers push to a centralized manager and in dictator a lieutenant they don’t. In the dictator system the developers push to “lieutenants” and those push to a dictator. The dictator and lieutenants handle merge conflicts.
+10. Large teams would benefit from the dictator and lieutenants(Dnl) system more because there will be more merges. The Dnl system has better merge conflict resolution because it splits it up between the lieutenants. 
