@@ -11,6 +11,7 @@
 #include "CommonSpear.h"
 #include "SimpleHammer.h"
 #include "CrazyRandomSword.h"
+#include "ReallyBigClub.h"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
