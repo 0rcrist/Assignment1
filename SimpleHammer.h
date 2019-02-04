@@ -17,7 +17,7 @@ public:
     SimpleHammer() : Weapon("SimpleHammer", 25.0) { //Calls Weapon(name, hitpoints) constructor with values SimpleHammer and 25.0
     }
 
-    virtual ~CommonSpear() {};
+    virtual ~SimpleHammer() {};
 
     virtual double hit(double armor);
 
