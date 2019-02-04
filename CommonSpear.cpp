@@ -14,3 +14,8 @@ double CommonSpear::hit(double armor) {
     }
     return damage;
 }
+
+~CommonSpear()
+{
+
+}

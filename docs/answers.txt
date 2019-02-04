@@ -33,3 +33,7 @@ Encapsulation is the concept of having data that only certain function can have 
 
 9. The main difference between integrated manager workflow and dictator and lieutenants is that in the integrated system all developers push to a centralized manager and in dictator a lieutenant they don’t. In the dictator system the developers push to “lieutenants” and those push to a dictator. The dictator and lieutenants handle merge conflicts.
 10. Large teams would benefit from the dictator and lieutenants(Dnl) system more because there will be more merges. The Dnl system has better merge conflict resolution because it splits it up between the lieutenants. 
+
+Part 5.
+The RoleGame prototype uses encapsulation. This can be seen inside the declaration for the weapons. The classes use the keywords public and private so that the member methods and variables can be hidden. The purpose of hiding them is so that other functions cannot edit object they should not. 
+The prototype does not have polymorphism. 
